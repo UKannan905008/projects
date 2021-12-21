@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputNote"
+    android:id="@+id/abcd">
+
+
+
+        <EditText
+            android:layout_margin="20dp"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="Title"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:maxLines="1"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:autoLink="all"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="top|left"
+            android:hint="Description"
+            android:inputType="textMultiLine|textCapSentences"
+            android:scrollbars="vertical"
+            android:textSize="15dp" />
+
+    <RelativeLayout
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/savebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="18.7dp"
+            android:layout_marginRight="62dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/darkbluerounded"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:text="Save"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/progressbarNOTE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        style="?android:attr/progressBarStyleLarge"
+        />
+
+
+</RelativeLayout>

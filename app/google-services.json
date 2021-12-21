@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "494419517522",
+    "project_id": "onlinenotesmanager-16aa4",
+    "storage_bucket": "onlinenotesmanager-16aa4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494419517522:android:70d59b7ce7ebb600953f8b",
+        "android_client_info": {
+          "package_name": "com.example.onlinenotesmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494419517522-g62mtvolnjdjud8iuml01qfsreq7fj6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnz5haE-nsyHEX7pJBnnxqWuy1tg9gtYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494419517522-g62mtvolnjdjud8iuml01qfsreq7fj6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
